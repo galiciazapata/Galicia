@@ -1,0 +1,62 @@
+PORTAFOLIO WEB — MARÍA GALICIA
+================================
+
+ARCHIVOS
+- index.html: página de inicio
+- sobre-mi.html: perfil profesional
+- trabajos.html: proyectos y videos
+- experiencia.html: trayectoria
+- contacto.html: información y formulario de contacto
+- css/styles.css: colores, tipografías y diseño adaptable
+- js/main.js: menú móvil, filtros y formulario
+- img/: coloca aquí tus fotografías y miniaturas
+- videos/: coloca aquí tus archivos MP4 si los usarás localmente
+
+ABRIR EN DREAMWEAVER
+1. Descomprime el archivo ZIP en una carpeta de tu computadora.
+2. Abre Dreamweaver y selecciona Sitio > Nuevo sitio (el nombre del menú puede variar).
+3. Ponle un nombre, por ejemplo “Portafolio María Galicia”, y elige esta carpeta como carpeta raíz local.
+4. Abre index.html y pulsa Vista en vivo o abre el archivo en tu navegador.
+5. Mantén la estructura de carpetas; las rutas CSS/JS dependen de ella.
+
+PERSONALIZAR FOTOGRAFÍAS
+- Guarda tu foto de portada como img/foto-portada.jpg.
+- Guarda un retrato para “Sobre mí” como img/foto-perfil.jpg.
+- Para proyectos usa: img/proyecto-presentacion.jpg, img/proyecto-reportaje.jpg,
+  img/proyecto-locucion.jpg, img/cobertura.jpg, img/entrevista.jpg e img/radio.jpg.
+- Puedes usar JPG, PNG o WebP, pero si cambias los nombres, actualiza el atributo src
+  correspondiente en el HTML. Usa imágenes propias o que tengas permiso de publicar.
+- Si no agregas imágenes, aparecerán espacios de muestra para indicarte qué reemplazar.
+
+VIDEOS
+- Copia los MP4 a la carpeta videos/ con los nombres presentacion.mp4, reportaje.mp4 y
+  locucion.mp4, o cambia los enlaces en trabajos.html.
+- Alternativamente, sube tus videos a YouTube o Vimeo y reemplaza cada enlace por el enlace
+  de reproducción o inserta el código iframe de inserción que te proporciona la plataforma.
+- Optimiza los archivos para que el sitio cargue rápido y confirma que tienes permiso para publicar
+  las imágenes, música y material de otras personas.
+
+CORREO Y REDES
+1. Abre js/main.js y cambia TU_CORREO@ejemplo.com por tu correo real.
+2. En contacto.html cambia también el correo visible y sustituye los enlaces de Instagram/LinkedIn
+   por tus perfiles reales. Añade otras redes si lo deseas.
+3. El formulario usa mailto: y abre la aplicación de correo del visitante; no envía mensajes por sí
+   solo desde un servidor. Para envío directo se necesita un servicio de formularios o backend.
+
+PUBLICAR EN INTERNET
+1. Compra/elige un servicio de alojamiento web estático. Opciones comunes incluyen GitHub Pages,
+   Netlify o un hosting con administrador de archivos; revisa las condiciones vigentes de cada uno.
+2. Sube TODO el contenido de esta carpeta, conservando css/, js/, img/ y videos/.
+3. Asegúrate de que index.html esté en la carpeta principal publicada.
+4. Abre la URL que te dé el servicio y prueba todas las páginas, imágenes, videos y botones.
+5. Comprueba el sitio en un teléfono real y en una computadora antes de compartirlo.
+6. Si usas dominio propio, configúralo en el servicio de alojamiento siguiendo sus instrucciones.
+
+DISEÑO RESPONSIVE
+El CSS incluye puntos de adaptación para pantallas pequeñas y un menú desplegable en celular.
+Prueba en el navegador con herramientas de vista móvil y también en tu teléfono. No se necesita
+una versión web aparte: el mismo sitio se adapta al ancho de pantalla.
+
+IMPORTANTE
+Este es un punto de partida editable. Antes de publicar, sustituye todos los ejemplos por tus datos
+y trabajos reales, revisa fechas/cargos y verifica que cada enlace funcione.
