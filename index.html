@@ -3,65 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio profesional de María Galicia: periodismo, presentación y locución.">
-  <title>María Galicia | Portafolio profesional</title>
+  <meta name="description" content="Portafolio profesional de María Galicia: presentación, periodismo, locución y comunicación digital multimedia.">
+  <meta name="theme-color" content="#392151">
+  <title>María Galicia | AURALIA</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js" defer></script>
 </head>
 <body>
-<header class="site-header">
-  <a class="brand" href="index.html" aria-label="María Galicia, inicio"><span>MARÍA GALICIA</span><small>PORTAFOLIO PROFESIONAL</small></a>
-  <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-  <nav class="main-nav" aria-label="Navegación principal">
-    <a class="active" href="index.html">Inicio</a><a href="sobre-mi.html">Sobre mí</a><a href="trabajos.html">Mi trabajo</a><a href="experiencia.html">Experiencia</a><a href="contacto.html">Contacto</a>
-  </nav>
-</header>
-<main>
-  <section class="hero">
-    <div class="hero-copy">
-      <p class="eyebrow">COMUNICACIÓN · PERIODISMO · PRESENTACIÓN</p>
-      <h1>Las historias<br>merecen <em>una voz.</em></h1>
-      <p class="hero-intro">Comunico para informar, conectar y dar vida a las historias que importan.</p>
-      <div class="button-row"><a class="button button-light" href="trabajos.html">Explorar mi trabajo <span>↗</span></a><a class="text-link light-link" href="sobre-mi.html">Conóceme</a></div>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Auralia, inicio"><span class="brand-mark">A</span><span>AURALIA<small>MARÍA GALICIA</small></span></a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav">
+        <a class="active" href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+        <a href="experiencia.html">Experiencia</a>
+        <a href="trabajos.html">Trabajos</a>
+        <a href="contacto.html" class="nav-cta">Contacto <span aria-hidden="true">↗</span></a>
+      </nav>
     </div>
-    <div class="hero-photo">
-      <!-- Reemplaza img/foto-portada.jpg con una fotografía tuya vertical u horizontal. -->
-      <img src="img/foto-portada.jpg" alt="Fotografía profesional de María Galicia" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
-      <div class="photo-placeholder"><span>MG</span><small>Agrega aquí tu fotografía de portada</small><code>img/foto-portada.jpg</code></div>
-      <span class="photo-note">María Galicia</span>
-    </div>
-    <div class="hero-orbit" aria-hidden="true"></div>
-  </section>
+  </header>
 
-  <section class="section about-preview">
-    <div class="section-heading"><p class="eyebrow">UN POCO SOBRE MÍ</p><h2>Comunicar también<br>es una forma de <em>servir.</em></h2></div>
-    <div class="about-text"><p>Soy estudiante de cuarto año de la licenciatura en Comunicación Digital Multimedia , con experiencia en presentación, redacción periodística, locución y creación de contenidos. Me apasiona contar historias, conversar con las personas y encontrar la manera más clara y cercana de comunicar.</p>
-    <a class="text-link" href="sobre-mi.html">Conoce más sobre mí <span>→</span></a></div>
-  </section>
+  <main id="contenido">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> COMUNICACIÓN · PERIODISMO · PRESENTACIÓN</p>
+          <h1>Las historias<br>merecen <em>una voz.</em></h1>
+          <p class="hero-text">Soy María Galicia. Comunico, conecto y cuento historias a través de los medios, con creatividad, sensibilidad y compromiso.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="trabajos.html">Explorar mis trabajos <span>↗</span></a>
+            <a class="text-link" href="sobre-mi.html">Conocé más sobre mí <span>→</span></a>
+          </div>
+          <div class="hero-note"><span class="note-dot"></span> Presentación, periodismo y locución</div>
+        </div>
+        <div class="hero-visual">
+          <div class="photo-frame">
+            <img src="img/foto-portada.svg" alt="Espacio para fotografía de portada de María Galicia">
+            <div class="photo-label"><span>01 / PERFIL</span><span>María Galicia</span></div>
+          </div>
+          <div class="floating-note"><span class="floating-icon">✳</span><span>Una voz para<br>cada historia.</span></div>
+          <span class="hero-orbit orbit-one"></span><span class="hero-orbit orbit-two"></span>
+        </div>
+      </div>
+    </section>
 
-  <section class="work-feature">
-    <div class="section work-inner">
-      <div class="work-intro"><p class="eyebrow">SELECCIÓN DE PROYECTOS</p><h2>Mi trabajo,<br><em>mi voz.</em></h2><p>Una muestra de experiencias frente a cámara, detrás del micrófono y en el desarrollo de contenidos informativos.</p><a class="button button-light" href="trabajos.html">Ver proyectos <span>↗</span></a></div>
-      <a class="video-card" href="trabajos.html" aria-label="Ver proyectos audiovisuales">
-        <div class="video-thumb"><span class="play-icon">▶</span><span class="thumb-label">VIDEO · PRESENTACIÓN</span></div>
-        <div class="video-caption"><strong>Presentación y periodismo</strong><span>Ver selección de trabajos ↗</span></div>
-      </a>
-    </div>
-  </section>
+    <section class="intro-strip">
+      <div class="container intro-strip-inner">
+        <p>Mi trabajo une <strong>información, creatividad y conexión humana.</strong></p>
+        <span class="strip-star">✳</span>
+      </div>
+    </section>
 
-  <section class="section strengths">
-    <p class="eyebrow">LO QUE ME MUEVE</p><h2>Comunicación con <em>propósito.</em></h2>
-    <div class="strength-grid">
-      <article><span class="strength-icon">✳</span><h3>Presentación</h3><p>Conexión con la audiencia, desenvolvimiento frente a cámara y comunicación clara.</p></article>
-      <article><span class="strength-icon">⌁</span><h3>Periodismo</h3><p>Redacción, entrevistas y desarrollo de contenidos con enfoque informativo.</p></article>
-      <article><span class="strength-icon">♫</span><h3>Locución</h3><p>Manejo de voz para contenidos radiales, notas y materiales pregrabados.</p></article>
-    </div>
-  </section>
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">LO QUE HAGO</p><h2>Comunicar con <em>intención.</em></h2></div>
+          <p class="heading-side">Cada formato es una oportunidad para acercar ideas, contar realidades y conectar con distintas audiencias.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><span class="card-number">01</span><div class="service-icon">◉</div><h3>Presentación</h3><p>Comunicación frente a cámara y presentación de programas, eventos y espacios informativos.</p><a href="experiencia.html" class="arrow-link" aria-label="Ver experiencia en presentación">↗</a></article>
+          <article class="service-card"><span class="card-number">02</span><div class="service-icon">✎</div><h3>Periodismo</h3><p>Redacción, investigación y cobertura de temas de interés para distintas audiencias.</p><a href="trabajos.html" class="arrow-link" aria-label="Ver trabajos de periodismo">↗</a></article>
+          <article class="service-card"><span class="card-number">03</span><div class="service-icon">〰</div><h3>Locución</h3><p>La voz como herramienta para informar, acompañar y transmitir mensajes con claridad.</p><a href="trabajos.html" class="arrow-link" aria-label="Ver trabajos de locución">↗</a></article>
+        </div>
+      </div>
+    </section>
 
-  <section class="contact-strip"><div><p class="eyebrow">¿TRABAJAMOS JUNTOS?</p><h2>Las buenas historias<br>comienzan con una conversación.</h2></div><a class="button button-dark" href="contacto.html">Hablemos <span>↗</span></a></section>
-</main>
-<footer class="site-footer"><a class="brand footer-brand" href="index.html"><span>MARÍA GALICIA</span><small>PORTAFOLIO PROFESIONAL</small></a><p>Periodismo · Presentación · Locución</p><small>© <span data-year></span> María Galicia. Todos los derechos reservados.</small></footer>
+    <section class="section">
+      <div class="container feature-grid">
+        <div class="feature-image"><img src="img/foto-perfil.svg" alt="Espacio para fotografía profesional de María Galicia"><span class="image-caption">COMUNICACIÓN CON PROPÓSITO</span></div>
+        <div class="feature-copy"><p class="eyebrow">UN POCO SOBRE MÍ</p><h2>Una trayectoria construida entre <em>historias y comunicación.</em></h2><p>Soy comunicadora digital multimedia con experiencia en presentación, periodismo, locución y creación de contenido audiovisual. Me interesa comunicar de forma cercana, clara y auténtica, adaptándome a cada formato y audiencia.</p><a class="button button-outline" href="sobre-mi.html">Conocé mi historia <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section class="section section-purple">
+      <div class="container selected-work">
+        <div class="section-heading section-heading-light"><div><p class="eyebrow">PORTAFOLIO</p><h2>Proyectos que cuentan<br>mi historia <em>profesional.</em></h2></div><a class="text-link text-link-light" href="trabajos.html">Ver todos los trabajos ↗</a></div>
+        <div class="work-grid">
+          <a class="work-card" href="trabajos.html#presentacion"><div class="work-thumb thumb-lilac"><span class="thumb-symbol">◉</span><span class="thumb-index">01</span></div><div class="work-meta"><div><h3>Presentación</h3><p>Programas y eventos</p></div><span>↗</span></div></a>
+          <a class="work-card" href="trabajos.html#periodismo"><div class="work-thumb thumb-cream"><span class="thumb-symbol">✎</span><span class="thumb-index">02</span></div><div class="work-meta"><div><h3>Periodismo</h3><p>Reportajes y coberturas</p></div><span>↗</span></div></a>
+          <a class="work-card" href="trabajos.html#locucion"><div class="work-thumb thumb-pink"><span class="thumb-symbol">〰</span><span class="thumb-index">03</span></div><div class="work-meta"><div><h3>Locución</h3><p>Voz y producción sonora</p></div><span>↗</span></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-banner"><div class="container contact-banner-inner"><div><p class="eyebrow">¿TRABAJAMOS JUNTOS?</p><h2>Hablemos de tu <em>próxima historia.</em></h2></div><a class="button button-primary" href="contacto.html">Contactame <span>↗</span></a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand brand-footer" href="index.html"><span class="brand-mark">A</span><span>AURALIA<small>MARÍA GALICIA</small></span></a><p>Comunicación que conecta con las personas.</p><div class="footer-links"><a href="contacto.html">Contacto</a><a href="#" data-social="instagram">Instagram</a><a href="#" data-social="linkedin">LinkedIn</a></div><small class="copyright">© <span data-year></span> María Galicia. Todos los derechos reservados.</small></div></footer>
 </body>
 </html>
