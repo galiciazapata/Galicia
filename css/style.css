@@ -1296,14 +1296,27 @@ color: #e0d4e8;
     object-fit: cover;
     object-position: center;
   }
-}
-/* Quitar la línea horizontal del pie de página en móviles */
-@media (max-width: 600px) {
-.site-footer .footer-inner {
-border-top: none !important;
-}
 
-.site-footer .footer-links {
-border-top: none !important;
-}
+/* Ajuste de los enlaces del pie de página en celulares */
+@media (max-width: 680px) {
+  .site-footer .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px 14px;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .site-footer .footer-links a {
+    font-size: 12px;
+    white-space: normal;
+  }
+
+  .site-footer .copyright {
+    border-top: none;
+  }
 }
